@@ -14,6 +14,8 @@
 		8980C1B9226E5F450014849C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8980C1B7226E5F450014849C /* LaunchScreen.storyboard */; };
 		8980C1C4226E5F460014849C /* Testing_collection_viewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8980C1C3226E5F460014849C /* Testing_collection_viewTests.swift */; };
 		8980C1CF226E5F460014849C /* Testing_collection_viewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8980C1CE226E5F460014849C /* Testing_collection_viewUITests.swift */; };
+		8980C1DD226E60750014849C /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8980C1DC226E60750014849C /* CollectionViewController.swift */; };
+		8980C1DF226E68A70014849C /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8980C1DE226E68A70014849C /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8980C1CA226E5F460014849C /* Testing-collection-viewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Testing-collection-viewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8980C1CE226E5F460014849C /* Testing_collection_viewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_collection_viewUITests.swift; sourceTree = "<group>"; };
 		8980C1D0226E5F460014849C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8980C1DC226E60750014849C /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		8980C1DE226E68A70014849C /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				8980C1AE226E5F440014849C /* AppDelegate.swift */,
 				8980C1B0226E5F440014849C /* ViewController.swift */,
+				8980C1DC226E60750014849C /* CollectionViewController.swift */,
 				8980C1B2226E5F440014849C /* Main.storyboard */,
+				8980C1DE226E68A70014849C /* RoundButton.swift */,
 				8980C1B5226E5F450014849C /* Assets.xcassets */,
 				8980C1B7226E5F450014849C /* LaunchScreen.storyboard */,
 				8980C1BA226E5F450014849C /* Info.plist */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8980C1DF226E68A70014849C /* RoundButton.swift in Sources */,
+				8980C1DD226E60750014849C /* CollectionViewController.swift in Sources */,
 				8980C1B1226E5F440014849C /* ViewController.swift in Sources */,
 				8980C1AF226E5F440014849C /* AppDelegate.swift in Sources */,
 			);
